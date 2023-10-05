@@ -1,21 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Paddle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool isPlayer1;
+    public float speed;
+    public Rigidbody2D rb;
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.W)) ;
-        Debug.Log("yes W is pressed down");
+    private float movement;
+
+    //update is called once per frame
+    void Update() {
+
+        if (isPlayer1)
+        {
+            movement = Input.GetAxisRaw("vertical");
+        }
+        else
+        {
+            movement = Input.GetAxisRaw("vertical2");
+        }
+
+        rb.velocity = new Vector2(rb.velocity.x, movement * speed);
     }
-       
+    
+    
+
 }
