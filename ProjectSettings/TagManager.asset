@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Verticalwall
+  - Left wall
+  - Right wall
+  - Horizontal wall
+  - horizontalWall
+  - leftWall
+  - rightWall
   layers:
   - Default
   - TransparentFX
