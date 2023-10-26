@@ -380,6 +380,7 @@ GameObject:
   - component: {fileID: 416057559}
   - component: {fileID: 416057558}
   - component: {fileID: 416057561}
+  - component: {fileID: 416057562}
   m_Layer: 0
   m_Name: rightWall
   m_TagString: rightWall
@@ -499,6 +500,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &416057562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416057557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250054ffbee395a488328486a8d9cd61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Xposition: 7.42
+  Yposition: 0
+  xSpeed: 0
+  ySpeed: 0
+  scoreField: {fileID: 681676851}
+  topScore: 10
 --- !u!1 &514632356
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +529,7 @@ GameObject:
   - component: {fileID: 514632357}
   - component: {fileID: 514632360}
   - component: {fileID: 514632358}
+  - component: {fileID: 514632361}
   m_Layer: 0
   m_Name: horizontalWall
   m_TagString: horizontalWall
@@ -526,8 +546,8 @@ Transform:
   m_GameObject: {fileID: 514632356}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.03, y: 6.41, z: 0.084570594}
-  m_LocalScale: {x: 18, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: -2.5726, y: 6.4847, z: 0.084570594}
+  m_LocalScale: {x: 26.915401, y: 0.3506, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 238580024}
@@ -629,6 +649,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &514632361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514632356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250054ffbee395a488328486a8d9cd61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Xposition: -7.03
+  Yposition: 6.41
+  xSpeed: 0
+  ySpeed: 0
+  scoreField: {fileID: 0}
+  topScore: 10
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -867,6 +905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 886840810}
   - component: {fileID: 886840809}
+  - component: {fileID: 886840811}
   - component: {fileID: 886840808}
   - component: {fileID: 886840807}
   m_Layer: 5
@@ -959,6 +998,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &886840811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886840806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250054ffbee395a488328486a8d9cd61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Xposition: 0
+  Yposition: 0
+  xSpeed: 0
+  ySpeed: 0
+  scoreField: {fileID: 0}
+  topScore: 10
 --- !u!1 &893227286
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,6 +1027,7 @@ GameObject:
   - component: {fileID: 893227287}
   - component: {fileID: 893227290}
   - component: {fileID: 893227288}
+  - component: {fileID: 893227291}
   m_Layer: 0
   m_Name: horizontalWall
   m_TagString: horizontalWall
@@ -986,8 +1044,8 @@ Transform:
   m_GameObject: {fileID: 893227286}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.240051, y: -3.6334043, z: 0.084570594}
-  m_LocalScale: {x: 18, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: -3.0566, y: -3.5836, z: 0.084570594}
+  m_LocalScale: {x: 26.3664, y: 0.4004, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 238580024}
@@ -1089,6 +1147,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &893227291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893227286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250054ffbee395a488328486a8d9cd61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Xposition: -7.24
+  Yposition: -3.63
+  xSpeed: 0
+  ySpeed: 0
+  scoreField: {fileID: 0}
+  topScore: 10
 --- !u!1 &1406189967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,7 +1482,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ySpeed: 3
-  yPosition: 0
   ball: {fileID: 1406189967}
 --- !u!1 &2054580800
 GameObject:
@@ -1419,6 +1494,7 @@ GameObject:
   - component: {fileID: 2054580804}
   - component: {fileID: 2054580803}
   - component: {fileID: 2054580801}
+  - component: {fileID: 2054580805}
   m_Layer: 0
   m_Name: leftWall
   m_TagString: leftWall
@@ -1538,6 +1614,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2054580805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054580800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250054ffbee395a488328486a8d9cd61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Xposition: -7.42
+  Yposition: 0
+  xSpeed: 0
+  ySpeed: 0
+  scoreField: {fileID: 681676851}
+  topScore: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

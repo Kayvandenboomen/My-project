@@ -7,8 +7,8 @@ public class collision : MonoBehaviour
 {
     public float Xposition = 0f;
     public float Yposition = 0f;
-    public float xSpeed = 1f;
-    public float ySpeed = 1f;
+    public float xSpeed = 0f;
+    public float ySpeed = 0f;
     public TMP_Text scoreField;
     private int leftScore = 0;
     private int rightScore = 0;
