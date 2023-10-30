@@ -18,6 +18,7 @@ public class collision : MonoBehaviour
     {
         Xposition = 0f;
         Yposition = 0f;
+        transform.position = new Vector3(Xposition, Yposition, 0);
         scoreField.text = leftScore + " - " + rightScore;
         if (leftOrRight == "left")
         {
@@ -65,6 +66,7 @@ public class collision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("hjmgffkgf");
         if (collision.gameObject.CompareTag("horizontalWall"))
         {
             ySpeed = ySpeed * -1f;

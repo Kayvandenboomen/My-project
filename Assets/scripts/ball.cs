@@ -11,7 +11,7 @@ public class ball : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Xposition = Random.Range(-10.0f, 10.0f);
+       Yposition = Random.Range(-5.0f, 5.0f);
         transform.position = new Vector3(Xposition, Yposition, 0);
 
     }
@@ -19,8 +19,8 @@ public class ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Xposition = Xposition + 1f * Time.deltaTime;
-        Yposition = Yposition + 1f * Time.deltaTime;
+        Xposition = Xposition + 5f * Time.deltaTime;
+        Yposition = Yposition + 5f * Time.deltaTime;
         transform.position = new Vector3(Xposition, Yposition, 0);
 
     }
