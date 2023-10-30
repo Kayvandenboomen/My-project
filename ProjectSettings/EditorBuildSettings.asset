@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pong 1 player.unity
     guid: 3c5d52fcb25c4cd49b17995a7cb8b22d
+  - enabled: 1
+    path: Assets/Scenes/Pong Mayhem mode.unity
+    guid: 69f9c336ea37ccd43a01bb5d8afb7022
   m_configObjects: {}
